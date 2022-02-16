@@ -1,0 +1,241 @@
+/* Global Changes
+     ========================================================================== */
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+     * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          text-decoration: none;
+     }
+
+     body {
+          font-size: 100%;
+          background-color: #fffff2;
+     }
+
+/* Header Changes
+     ========================================================================== */   
+
+     .cabecalho{
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          padding: 24px;
+     }
+
+     .cabecalho-imagem {
+          height: 72px;
+     }
+
+     .cabecalho-menu1 {
+          display: flex;
+          gap: 15px;
+     }
+
+     .cabecalho-menu1-item {
+          font-family: 'Poppins', sans-serif;
+          color: gray;
+          font-weight: 300;
+          font-size: 15px;
+     }
+     
+     .cabecalho-menu2 {
+          display: flex;
+          gap: 40px;
+     }
+
+     .cabecalho-menu2-item {
+          font-family: 'Poppins', sans-serif;
+          color: gray;
+          font-weight: 300;
+          font-size: 15px;
+     }
+
+/* Main Changes
+     ========================================================================== */ 
+
+  /*========Call to Action===== */
+
+     .conteudo {
+          border-top: 0.4px solid black;
+          margin-top: 30px;
+          margin-bottom: 48px;
+     }
+
+     .conteudo-calltoaction {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: space-around;
+          background-image:url("RAVI-fundo.svg");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+     }
+
+     .conteudo-calltoaction-vermais {
+          display: flex; 
+          flex-direction: column;
+          gap: 30px;
+          align-self: center;
+          padding-top: 350px;
+     }
+
+     .conteudo-calltoaction-vermais-paragrafo {
+          font-family: 'Poppins', sans-serif;
+          color: gray;
+          font-weight: 300;
+          font-size: 15px;
+          padding-left: 15px;
+     }
+
+     .conteudo-calltoaction-vermais-botao {
+          background-color: #76685f;
+          width: 180px;
+          height: 60px;
+          border: none;
+          box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+          border-radius: 15px;
+          margin-left: 15px;
+     }
+
+     .conteudo-calltoaction-imagem {
+          padding-left: 200px;
+          height: 800px;
+     }
+
+     .conteudo-calltoaction-novidades {
+          display: flex; 
+          flex-direction: column;
+          gap: 30px;
+          padding-bottom: 100px;
+     }
+
+     .conteudo-calltoaction-novidades-titulo {
+          font-family: 'Poppins', sans-serif;
+          color: gray;
+          font-weight: 400;
+          font-size: 30px;
+          padding-left: 30px;
+          padding-top: 30px;
+     }
+
+     .conteudo-calltoaction-novidades-imagens {
+          display: flex;
+          flex-direction: row;
+          text-decoration: none;
+          border: none;
+     }
+
+     .conteudo-calltoaction-novidades-imagem1 {
+          height: 15vmax;
+          margin:30px;
+          margin-top: 0;
+     }
+
+     .conteudo-calltoaction-novidades-imagem2 {
+          height: 200px;
+          margin:30px;
+          margin-top: 0;
+     }
+
+  /*========Call to Action end===== */
+
+  /*========Category===== */
+     .conteudo-categorias{
+          display: flex;
+          flex-direction: column;
+          row-gap: 40px;
+          margin-top: 40px;
+          margin-bottom: 40px;
+     }
+
+     .conteudo-categorias-titulo {
+          font-family: 'Poppins', sans-serif;
+          color: gray;
+          font-weight: 400;
+          font-size: 30px;
+          padding-left: 30px;
+          padding-top: 30px;
+          margin-left: 115px;
+     }
+
+     .conteudo-categorias-menu {
+          box-sizing: border-box;
+          display: flex;
+          gap: 5px;
+          justify-content: space-around;
+          background-color: gray;
+          align-self: center;
+          width: 1375px;
+          height: 60px;
+
+     }
+
+     .conteudo-categorias-menu-item {
+          font-family: 'Poppins', sans-serif;
+          color: #76685f;
+          font-weight: 300;
+          font-size: 15px;
+          align-self: center;
+     }
+
+     .conteudo-categorias-menu-item1 {
+          font-family: 'Poppins', sans-serif;
+          color: #76685f;
+          font-weight: 300;
+          font-size: 15px;
+          align-self: center;
+          background-color: black;
+     }
+
+     .conteudo-categorias-items{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .conteudo-categorias-items-boxes {
+          background-color: aqua;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 100px;
+
+     }
+
+     /*.conteudo-categorias-items-boxe1 {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+     }
+
+     .conteudo-categorias-items-boxe2 {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+     }
+
+     .conteudo-categorias-items-boxe3 {
+          display: flex;
+          flex-direction: column;
+          gap: 30px;
+     }*/
+     
+     .conteudo-categorias-botao {
+          background-color: #76685f;
+          width: 180px;
+          height: 60px;
+          border: none;
+          box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+          border-radius: 15px;
+          margin-left: 15px;
+          align-items: center;
+          margin-top: 50px;
+     }
+
+
+
+/* Footer Changes
+     ========================================================================== */ 
