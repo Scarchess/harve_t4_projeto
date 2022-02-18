@@ -7,6 +7,7 @@
           padding: 0;
           box-sizing: border-box;
           text-decoration: none;
+          border: 1px solid red;
      }
 
      body {
@@ -29,24 +30,12 @@
           height: 72px;
      }
 
-     .cabecalho-menu1 {
+     .cabecalho-menu {
           display: flex;
           gap: 15px;
      }
 
-     .cabecalho-menu1-item {
-          font-family: 'Poppins', sans-serif;
-          color: gray;
-          font-weight: 300;
-          font-size: 15px;
-     }
-     
-     .cabecalho-menu2 {
-          display: flex;
-          gap: 40px;
-     }
-
-     .cabecalho-menu2-item {
+     .cabecalho-menu-item {
           font-family: 'Poppins', sans-serif;
           color: gray;
           font-weight: 300;
@@ -72,15 +61,15 @@
           background-image:url("RAVI-fundo.svg");
           background-position: center;
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: contain;
+          flex-wrap: nowrap;
      }
 
      .conteudo-calltoaction-vermais {
           display: flex; 
           flex-direction: column;
           gap: 30px;
-          align-self: center;
-          padding-top: 350px;
+          justify-content: end;
      }
 
      .conteudo-calltoaction-vermais-paragrafo {
@@ -115,7 +104,7 @@
           display: flex; 
           flex-direction: column;
           gap: 30px;
-          padding-bottom: 100px;
+          justify-content: end;
      }
 
      .conteudo-calltoaction-novidades-titulo {
@@ -230,8 +219,7 @@
      
      .conteudo-categorias-botao {
           background-color: #76685f;
-          width: 180px;
-          height: 60px;
+          padding: 1.5rem 2rem;
           border: none;
           box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
           border-radius: 15px;
@@ -260,7 +248,7 @@
      }
 
      .conteudo-categorias-colecoes-img {
-          width: 20vmax;
+          width: 100%;
      }
 
      .conteudo-categorias-colecoes-homem {
@@ -270,7 +258,11 @@
 
      .conteudo-categorias-colecoes-homem-infos {
           display: flex;
-          flex-direction: column-reverse;
+          flex-direction: column;   
+     }
+
+     .conteudo-categorias-colecoes-mulher-vazio {
+          visibility: hidden;
      }
 
 
