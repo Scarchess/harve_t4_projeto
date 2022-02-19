@@ -1,215 +1,282 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/styles/reset.css">
   <link rel="stylesheet" href="assets/styles/style.css">
-  <title>Rarvi</title>
+  <title>Ravi - Homepage</title>
 </head>
 
 <body>
   <header class="cabecalho">
-    <nav class="cabecalho-menu">
-      <a href="#" class="cabecalho-menu-item">Inicio</a>
-      <a href="#" class="cabecalho-menu-item">Sobre Nós</a>
-      <a href="#" class="cabecalho-menu-item">Categorias</a>
-      <a href="#" class="cabecalho-menu-item">Loja</a>
-    </nav>
-    <img src="assets/images/RAVI.svg" alt="" class="cabecalho-imagem">
-    <nav class="cabecalho-menu">
-      <a href="#"class="cabecalho-menu-item">Lupa</a>
-      <a href="#"class="cabecalho-menu-item">Login</a>
-      <a href="#"class="cabecalho-menu-item">Carrinho</a>
-    </nav>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="">Início</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Categorias</a></li>
+          <li><a href="">Loja</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <img src="assets/images/RAVI.svg" alt="Logo do e-commerce" class="logo">
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="">Pesquisa</a></li>
+          <li><a href="">Carrinho</a></li>
+          <li><a href="">Login</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main class="conteudo">
-    <section class="conteudo-calltoaction">
-      <div class="conteudo-calltoaction-vermais">
-        <p class="conteudo-calltoaction-vermais-paragrafo">Autonomia num determinado período e local e </br>num contexto específico, de vestuário. calçado, estilo de vida, </br>acessórios, maquilhagem, penteado, e postura corporal.</p>
-      <button class="conteudo-calltoaction-vermais-botao">Descubra mais</button>
+  <main>
+    <Section class="cta">
+      <div class="cta-texto">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas excepturi vero illo harum nostrum, ipsa quaerat neque aspernatur asperiores aut magni quibusdam minus nulla, fuga quas corrupti nihil natus debitis.</p>
+        <a href="" role="button">Descubra Mais</a>
       </div>
-      <img src="assets/images/Call to Action Ecommerce 2.png" alt="" class="conteudo-calltoaction-imagem">
-      <div class="conteudo-calltoaction-novidades">
-        <h2 class="conteudo-calltoaction-novidades-titulo">Novidades</h2>
-        <div class="conteudo-calltoaction-novidades-imagens">
-          <img src="assets/images/product-1.png" alt="" class="conteudo-calltoaction-novidades-imagem1">
-          <img src="assets/images/product-1.png" alt="" class="conteudo-calltoaction-novidades-imagem2">
+      <div class="cta-imagem">
+        <img src="assets/images/Call to Action Ecommerce 2.png" alt="Imagem homem sentado">
+      </div>
+      <div class="cta-novidades">
+        <h2>Lançamentos</h2>
+        <div>
+          <div><img src="assets/images/product-1.png" alt="">
+          </div>
+          <div><img src="assets/images/product-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </Section>
+
+    <section class="categorias">
+      <header>
+        <h2>Categorias</h2>
+      </header>
+        <div class="categoria-menu">
+          <nav>
+            <ul>
+              <li class="active"><a href="">Tudo</a></li>
+              <li><a href="">Camiseta</a></li>
+              <li><a href="">Bermuda</a></li>
+              <li><a href="">Meias</a></li>
+              <li><a href="">Relógios</a></li>
+              <li><a href="">Sapatos</a></li>
+              <li><a href="">Bonés</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="categorias-items">
+          <div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+          </div>
+          <div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+          </div>
+          <div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+          </div>
+        </div>
+      <a href="#" role="button">Ver mais</a>
+    </section>
+
+    <section>
+      <div>
+        <div>
+          <img src="assets/images/Call to Action Ecommerce 2.png" alt="">
+          <div>
+            <h2>Coleção feminina</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni blanditiis id accusantium! Quibusdam quidem eum expedita dolores impedit! Tenetur distinctio iure beatae nulla. Ad est architecto esse eligendi aut?</p>
+            <a href="#" role="button">Compre Agora</a>
+          </div>
+        </div>
+        <div>
+          <img src="assets/images/Call to Action Ecommerce 2.png" alt="">
+          <div>
+            <h2>Coleção feminina</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni blanditiis id accusantium! Quibusdam quidem eum expedita dolores impedit! Tenetur distinctio iure beatae nulla. Ad est architecto esse eligendi aut?</p>
+            <a href="#" role="button">Compre Agora</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="conteudo-categorias">
-      <h2 class="conteudo-categorias-titulo">Categorias</h2>
-      <nav class="conteudo-categorias-menu">
-        <a href="#" class="conteudo-categorias-menu-item1">Tudo</a>
-        <a href="#" class="conteudo-categorias-menu-item">Camisa</a>
-        <a href="#" class="conteudo-categorias-menu-item">Bermuda</a>
-        <a href="#" class="conteudo-categorias-menu-item">Meia</a>
-        <a href="#" class="conteudo-categorias-menu-item">Relógio</a>
-        <a href="#" class="conteudo-categorias-menu-item">Tênis</a>
-        <a href="#" class="conteudo-categorias-menu-item">Boné</a>
-      </nav>
-    </section>
-    <section class="conteudo-categorias-items">
-      <div class="conteudo-categorias-items-boxes">
-        <div class="conteudo-categorias-items-boxe1">
-          <div><img src="assets/images/product-4.png" alt=""></div>
-          <div><img src="assets/images/product-4.png" alt=""></div>
-          <div><img src="assets/images/product-4.png" alt=""></div>
+    <section>
+      <header>
+        <h2>Mais Vendidos</h2>
+      </header>
+      <div>
+        <div>
+          <div>
+            <img src="assets/images/product-2.png" alt="">
+          </div>
+          <div>
+            <div>
+              <span>Produto 1</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div>
+              <img src="assets/images/Estrela.svg" alt="">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
         </div>
-        <div class="conteudo-categorias-items-boxe2">
-          <div><img src="assets/images/product-4.png" alt=""></div>
-          <div><img src="assets/images/product-4.png" alt=""></div>
-          <div><img src="assets/images/product-4.png" alt=""></div>
+        <div>
+          <div>
+            <img src="assets/images/product-2.png" alt="">
+          </div>
+          <div>
+            <div>
+              <span>Produto 2</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div>
+              <img src="assets/images/Estrela.svg" alt="">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
         </div>
-        <div class="conteudo-categorias-items-boxe3">
-          <div><img src="assets/images/product-4.png" alt=""></div>
-          <div><img src="assets/images/product-4.png" alt=""></div>
-          <div><img src="assets/images/product-4.png" alt=""></div>
+        <div>
+          <div>
+            <img src="assets/images/product-2.png" alt="">
+          </div>
+          <div>
+            <div>
+              <span>Produto 3</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div>
+              <img src="assets/images/Estrela.svg" alt="">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
         </div>
-      </div>
-      <button class="conteudo-categorias-botao">Ver tudo</a>
-    </section>
-    
-
-    <section class="conteudo-categorias-colecoes">
-      <div class="conteudo-categorias-colecoes-mulher">
-        <img src="assets/images/product-3.png" alt="" class="conteudo-categorias-colecoes-img">
-        <div class="conteudo-categorias-colecoes-mulher-infos">
-          <h2>Coleção Feminina</h2>
-          <h3>Novidades</h3>
-          <button class>Compre Agora</button>
+        <div>
+          <div>
+            <img src="assets/images/product-2.png" alt="">
+          </div>
+          <div>
+            <div>
+              <span>Produto 4</span>
+              <span>R$ 20,00</span>
+            </div>
+            <div>
+              <img src="assets/images/Estrela.svg" alt="">
+              <span>4.9 (2k avaliações)</span>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="conteudo-categorias-colecoes-mulher-vazio">
-        <img src="assets/images/product-3.png" alt="" class="conteudo-categorias-colecoes-img">
-        <div class="conteudo-categorias-colecoes-mulher-infos">
-          <h2>Coleção Feminina</h2>
-          <h3>Novidades</h3>
-          <button class>Compre Agora</button>
-        </div>
-      </div>
-      <div class="conteudo-categorias-colecoes-mulher-vazio">
-        <img src="assets/images/product-3.png" alt="" class="conteudo-categorias-colecoes-img">
-        <div class="conteudo-categorias-colecoes-mulher-infos">
-          <h2>Coleção Feminina</h2>
-          <h3>Novidades</h3>
-          <button class>Compre Agora</button>
-        </div>
-      </div>
-      <div class="conteudo-categorias-colecoes-homem">
-        <img src="assets/images/product-3.png" alt="" class="conteudo-categorias-colecoes-img">
-        <div class="conteudo-categorias-colecoes-homem-infos">
-          <h2>Coleção Masculina</h2>
-          <h3>Novidades</h3>
-          <button class>Compre Agora</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="conteudo-maisvendidos">
-      <h2 class="conteudo-maisvendidos-titulo">Mais Vendidos</h2>
-      <div class="conteudo-maisvendidos-produto1">
-        <img src="assets/images/product-1.png" alt="">
-        <p>Camiseta Casual</p>
-        <p>R$ 100,00</p>
-        <p><img src="assets/images/Estrela.svg" alt="">4.9 (2,5K Avaliações)</p>
-      </div>
-      <div class="conteudo-maisvendidos-produto2">
-        <img src="assets/images/product-1.png" alt="">
-        <p>Camiseta Casual</p>
-        <p>R$ 100,00</p>
-        <p><img src="assets/images/Estrela.svg" alt="">4.9 (2,5K Avaliações)</p>
-      </div>
-      <div class="conteudo-maisvendidos-produto3">
-        <img src="assets/images/product-1.png" alt="">
-        <p>Camiseta Casual</p>
-        <p>R$ 100,00</p>
-        <p><img src="assets/images/Estrela.svg" alt="">4.9 (2,5K Avaliações)</p>
-      </div>
-      <div class="conteudo-maisvendidos-produto4">
-        <img src="assets/images/product-1.png" alt="">
-        <p>Camiseta Casual</p>
-        <p>R$ 100,00</p>
-        <p><img src="assets/images/Estrela.svg" alt="">4.9 (2,5K Avaliações)</p>
       </div>
     </section>
 
+    <section>
+      <a href="#"><img src="assets/images/Adidas.svg" alt=""></a>
+      <a href="#"><img src="assets/images/Bata.svg" alt=""></a>
+      <a href="#"><img src="assets/images/Nike.svg" alt=""></a>
+      <a href="#"><img src="assets/images/Puma.svg" alt=""></a>
+      <a href="#"><img src="assets/images/Adidas.svg" alt=""></a>
+    </section>
 
-
+    <section>
+      <header>
+        <h2>Avaliações</h2>
+      </header>
+        <div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem vero error aspernatur? Ipsa assumenda quisquam perferendis amet iure blanditiis ipsum est modi, quos pariatur facere dolorem eius, placeat repellat.</p>
+            <div>
+              <img src="assets/images/APPLE PAY.svg" alt="">
+            </div>
+            <div>
+              <span>José Luiz</span>
+              <span>Vendedor</span>
+            </div>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem vero error aspernatur? Ipsa assumenda quisquam perferendis amet iure blanditiis ipsum est modi, quos pariatur facere dolorem eius, placeat repellat.</p>
+            <div>
+              <img src="assets/images/APPLE PAY.svg" alt="">
+            </div>
+            <div>
+              <span>José Luiz</span>
+              <span>Vendedor</span>
+            </div>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem vero error aspernatur? Ipsa assumenda quisquam perferendis amet iure blanditiis ipsum est modi, quos pariatur facere dolorem eius, placeat repellat.</p>
+            <div>
+              <img src="assets/images/APPLE PAY.svg" alt="">
+            </div>
+            <div>
+              <span>José Luiz</span>
+              <span>Vendedor</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Faça sua Avaliação</h3>
+          <form>
+            <fieldset>
+              <label for="name"></label>
+              <input type="text" name="name" id="name" placeholder="nome">
+            </fieldset>
+            <fieldset>
+              <label for="avaliacao-email" hidden>E-mail</label>
+              <input type="email" name="avaliacao-email" id="avaliacao-email" placeholder="Digite seu E-mail">
+            </fieldset>
+              <label for="comentario" hidden>Digite seu Comentário</label>
+              <textarea placeholder="Digite Seu Comentário" type="text" name="comentario" id="comentario" cols="30" rows="10"></textarea>
+            <fieldset>
+              <label for="avaliacao">Avaliação</label>
+              <input type="number" name="avaliacao" id="avaliacao" max="5" min="1" value="5">
+            </fieldset>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+    </section>
   </main>
 
-  <footer class="rodape">
-
-    <section class="rodape-marcas">
-      <div class="rodape-marcas-items">
-        <div><img src="assets/images/Nike.svg" alt=""></div>
-        <div><img src="assets/images/Adidas.svg" alt=""></div>
-        <div><img src="assets/images/Puma.svg" alt=""></div>
-        <div><img src="assets/images/Bata.svg" alt=""></div>
-      </div>
-    </section>
-    <section class="rodape-avaliacoes">
-      <h2 class="rodape-avaliacoes-titulo">Avaliações</h2>
-        <div class="rodape-avaliacoes-boxs">
-          <div class="rodape-avaliacoes-box1">
-            <img src="assets/images/Estrela.svg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quis sequi enim placeat consectetur distinctio commodi rem? Error, dolorum beatae quaerat temporibus reprehenderit cum sint voluptatum fuga porro, nihil corrupti.</p>
-            <div>
-              <img src="#" alt="">
-              <p>José</p>
-            </div>
-          </div>
-          <div class="rodape-avaliacoes-box2">
-            <img src="assets/images/Estrela.svg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quis sequi enim placeat consectetur distinctio commodi rem? Error, dolorum beatae quaerat temporibus reprehenderit cum sint voluptatum fuga porro, nihil corrupti.</p>
-            <div>
-              <img src="#" alt="">
-              <p>José</p>
-            </div>
-          </div>
-          <div class="rodape-avaliacoes-box3">
-            <img src="assets/images/Estrela.svg" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quis sequi enim placeat consectetur distinctio commodi rem? Error, dolorum beatae quaerat temporibus reprehenderit cum sint voluptatum fuga porro, nihil corrupti.</p>
-            <div>
-              <img src="#" alt="">
-              <p>José</p>
-            </div>
-          </div>
-        </div>
-    </section>
-    <section class="rodape-newsletter">
-      <h2 class="rodape-newsletter-titulo">Escreva-se na nossa Newsletter</h2>
-      <form class="rodape-newsletter-formulario">
+  <footer>
+    <div>
+      <h1>Inscreva-se na nossa Newsletter</h1>
+      <form>
         <fieldset>
-          <label for="email" hidden>E-mail</label>
-          <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
-          <button type="submit">Iniciar</button>
+          <label for="email" hide>E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu E-mail">
+          <button type="submit">iniciar</button>
         </fieldset>
       </form>
-    </section>
-
-    <section class="rodape-final">
-      <div class="rodape-final-logo">
-        <div><img src="assets/images/RAVI.svg" alt=""></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro beatae officia vitae ad in nemo voluptas expedita assumenda. Optio veniam fugiat odit, recusandae pariatur earum perferendis alias architecto natus doloribus!</p>
+    </div>
+    <div>
+      <div>
+        <img src="" alt="" srcset="">
+        <small>
+          &copy; Copyright 2022. Todos os direitos reservados.
+        </small>
       </div>
-      <div class="rodape-final-redes">
-        <div><img src="assets/images/Instagram.svg" alt=""></div>
-        <div><img src="assets/images/Instagram.svg" alt=""></div>
-        <div><img src="assets/images/Instagram.svg" alt=""></div>
+      <div>
+        <img src="assets/images/Instagram.svg" alt="">
+        <img src="assets/images/Pinterest.svg" alt="">
+        <img src="assets/images/Twiter.svg" alt="">
       </div>
-      <div class="rodape-final-pagamento">
-        <div><img src="assets/images/VISA.svg" alt=""></div>
-        <div><img src="assets/images/VISA.svg" alt=""></div>
-        <div><img src="assets/images/VISA.svg" alt=""></div>
+      <div>
+        <img src="assets/images/PAYPAL.svg" alt="">
+        <img src="assets/images/VISA.svg" alt="">
+        <img src="assets/images/APPLE PAY.svg" alt="">
       </div>
-    </section>
-
+    </div>
   </footer>
 </body>
-
 </html>

@@ -2,267 +2,101 @@
      ========================================================================== */
      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-     * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          text-decoration: none;
-          border: 1px solid red;
-     }
-
      body {
-          font-size: 100%;
-          background-color: #fffff2;
+          background-color: white;
      }
 
 /* Header Changes
-     ========================================================================== */   
-
-     .cabecalho{
+     ========================================================================== */  
+     
+     .cabecalho {
           display:flex;
           flex-direction: row;
+          justify-content: space-evenly;
           align-items: center;
-          justify-content: space-around;
-          padding: 24px;
+          padding: .5rem;
+          margin-bottom: 1rem;
+          width: 100vmax;
+          background-color: white;
+          box-shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px 5px -3px rgb(0 0 0 / 20%);
      }
 
-     .cabecalho-imagem {
-          height: 72px;
-     }
-
-     .cabecalho-menu {
-          display: flex;
-          gap: 15px;
-     }
-
-     .cabecalho-menu-item {
-          font-family: 'Poppins', sans-serif;
+     a[href] {
           color: gray;
-          font-weight: 300;
-          font-size: 15px;
+     }
+
+     .cabecalho .logo{
+          max-width: 200px;
+     }
+
+     a[href]:hover,
+     a[href]:active{
+          font-weight: bold;
+          color: #707070;
+     }
+
+     a[href]:active {
+          opacity: 0,6;
      }
 
 /* Main Changes
      ========================================================================== */ 
 
-  /*========Call to Action===== */
-
-     .conteudo {
-          border-top: 0.4px solid black;
-          margin-top: 30px;
-          margin-bottom: 48px;
-     }
-
-     .conteudo-calltoaction {
+     /* ============ CTA Start============ */ 
+     .cta {
           display: flex;
           flex-direction: row;
-          align-items: flex-end;
-          justify-content: space-around;
-          background-image:url("RAVI-fundo.svg");
-          background-position: center;
+          justify-content: center;
+          align-items: center;
+          background-image: url(RAVI-fundo.svg);
           background-repeat: no-repeat;
           background-size: contain;
+     }
+
+     .cta-texto,
+     .cta-novidades {
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: start;
+          /* padding: 1rem; */
+          padding-bottom: 5rem;
+          padding-left: 2rem;
+          padding-right: 2rem;
+
+     }
+
+     .cta-texto p {
+          margin-bottom: 50px;
+          padding-right: 2rem;
+     }
+
+     .cta > div {
+          width: 100%;
           flex-wrap: nowrap;
      }
 
-     .conteudo-calltoaction-vermais {
-          display: flex; 
-          flex-direction: column;
-          gap: 30px;
-          justify-content: end;
-     }
-
-     .conteudo-calltoaction-vermais-paragrafo {
-          font-family: 'Poppins', sans-serif;
-          color: gray;
-          font-weight: 300;
-          font-size: 15px;
-          padding-left: 15px;
-     }
-
-     .conteudo-calltoaction-vermais-botao {
-          background-color: #76685f;
-          width: 180px;
-          height: 60px;
-          border: none;
-          box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
-          border-radius: 15px;
-          margin-left: 15px;
-     }
-
-     .conteudo-calltoaction-vermais-botao:hover {
-          background-color: rgba(0, 0, 0, 0.25);
-     }
-
-
-     .conteudo-calltoaction-imagem {
-          padding-left: 200px;
-          height: 800px;
-     }
-
-     .conteudo-calltoaction-novidades {
-          display: flex; 
-          flex-direction: column;
-          gap: 30px;
-          justify-content: end;
-     }
-
-     .conteudo-calltoaction-novidades-titulo {
-          font-family: 'Poppins', sans-serif;
-          color: gray;
-          font-weight: 400;
-          font-size: 30px;
-          padding-left: 30px;
-          padding-top: 30px;
-     }
-
-     .conteudo-calltoaction-novidades-imagens {
+     .cta-novidades > div {
           display: flex;
           flex-direction: row;
-          text-decoration: none;
-          border: none;
-     }
-
-     .conteudo-calltoaction-novidades-imagem1 {
-          height: 15vmax;
-          margin:30px;
-          margin-top: 0;
-     }
-
-     .conteudo-calltoaction-novidades-imagem2 {
-          height: 200px;
-          margin:30px;
-          margin-top: 0;
-     }
-
-  /*========Call to Action end===== */
-
-  /*========Category items===== */
-     .conteudo-categorias{
-          display: flex;
-          flex-direction: column;
-          row-gap: 40px;
-          margin-top: 40px;
-          margin-bottom: 40px;
-     }
-
-     .conteudo-categorias-titulo {
-          font-family: 'Poppins', sans-serif;
-          color: gray;
-          font-weight: 400;
-          font-size: 30px;
-          padding-left: 30px;
-          padding-top: 30px;
-          margin-left: 115px;
-     }
-
-     .conteudo-categorias-menu {
-          box-sizing: border-box;
-          display: flex;
-          gap: 5px;
-          justify-content: space-around;
-          background-color: gray;
-          align-self: center;
-          width: 1375px;
-          height: 60px;
-
-     }
-
-     .conteudo-categorias-menu-item {
-          font-family: 'Poppins', sans-serif;
-          color: #76685f;
-          font-weight: 300;
-          font-size: 15px;
-          align-self: center;
-     }
-
-     .conteudo-categorias-menu-item1 {
-          font-family: 'Poppins', sans-serif;
-          color: #76685f;
-          font-weight: 300;
-          font-size: 15px;
-          align-self: center;
-          background-color: black;
-     }
-
-     .conteudo-categorias-items{
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-     }
-
-     .conteudo-categorias-items-boxes {
-          background-color: aqua;
-          display: flex;
-          flex-wrap: wrap;
-          gap: 100px;
-
-     }
-
-     /*.conteudo-categorias-items-boxe1 {
-          display: flex;
-          flex-direction: column;
-          gap: 30px;
-     }
-
-     .conteudo-categorias-items-boxe2 {
-          display: flex;
-          flex-direction: column;
-          gap: 30px;
-     }
-
-     .conteudo-categorias-items-boxe3 {
-          display: flex;
-          flex-direction: column;
-          gap: 30px;
-     }*/
-     
-     .conteudo-categorias-botao {
-          background-color: #76685f;
-          padding: 1.5rem 2rem;
-          border: none;
-          box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
-          border-radius: 15px;
-          margin-left: 15px;
-          align-items: center;
-          margin-top: 50px;
-     }
-
-   /*========Category Colections===== */
-
-     .conteudo-categorias-colecoes {
-          display: flex;
-          flex-wrap: wrap;
-          margin-top: 50px;
-          justify-content: center;
-     }
-
-     .conteudo-categorias-colecoes-mulher {
-          display: flex;
-          flex-direction: row;
-     }
-
-     .conteudo-categorias-colecoes-mulher-infos {
-          display: flex;
-          flex-direction: column;
-     }
-
-     .conteudo-categorias-colecoes-img {
           width: 100%;
+          flex-wrap: nowrap;
      }
 
-     .conteudo-categorias-colecoes-homem {
+     .cta-novidades img {
+          margin-bottom: 50px;
+          padding-right: 2rem;
+          width: 15vmax;
+     }
+
+     /* ============ CTA End ============ */ 
+
+     /* ============ Categorias Start ============ */
+
+     .categorias {
           display: flex;
-          flex-direction: row-reverse;
-     }
-
-     .conteudo-categorias-colecoes-homem-infos {
-          display: flex;
-          flex-direction: column;   
-     }
-
-     .conteudo-categorias-colecoes-mulher-vazio {
-          visibility: hidden;
+          flex-direction: column;
+          
      }
 
 
