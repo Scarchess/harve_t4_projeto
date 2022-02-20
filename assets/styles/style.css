@@ -88,17 +88,47 @@
           padding-right: 2rem;
           width: 15vmax;
      }
-
+     
      /* ============ CTA End ============ */ 
 
      /* ============ Categorias Start ============ */
 
-     .categorias {
+     #categorias--produto-lista {
+          flex-direction: column;
+          display: flex;
+          flex-wrap: wrap;
+        }
+     
+        
+     #categorias--produto-lista>div {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+        }
+
+
+     .mais-vendidos {
           display: flex;
           flex-direction: column;
-          
      }
 
+     .mais-vendidos-items {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding: 2rem;
+     }
+
+     .mais-vendidos-items-boxes {
+          display: flex;
+          flex-direction: column;
+          padding: 1rem;
+     }
+
+
+
+     
 
 /* Footer Changes
      ========================================================================== */ 

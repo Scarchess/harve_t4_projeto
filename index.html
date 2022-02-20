@@ -55,70 +55,55 @@
       </div>
     </Section>
 
-    <section class="categorias">
+    <section>
       <header>
         <h2>Categorias</h2>
       </header>
-        <div class="categoria-menu">
-          <nav>
-            <ul>
-              <li class="active"><a href="">Tudo</a></li>
-              <li><a href="">Camiseta</a></li>
-              <li><a href="">Bermuda</a></li>
-              <li><a href="">Meias</a></li>
-              <li><a href="">Relógios</a></li>
-              <li><a href="">Sapatos</a></li>
-              <li><a href="">Bonés</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="categorias-items">
+      <div id="categorias">
+        <nav id="menu-categorias">
+          <!-- ul>(li>a)*7 -->
+          <ul>
+            <li class="active"><a href="#">Todas</a></li>
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Bermudas</a></li>
+            <li><a href="#">Meias</a></li>
+            <li><a href="#">Relógios</a></li>
+            <li><a href="#">Calçados</a></li>
+            <li><a href="#">Chapéus</a></li>
+          </ul>
+        </nav>
+        <div id="categorias--produto-lista">
+          <!-- (div>(div>a>img)*3)*3 -->
+          <!-- Para mesclar duas "células" basta remover uma das div's -->
           <div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
           </div>
           <div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
           </div>
           <div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
-            <div><a href=""><img src="assets/images/product-1.png" alt=""></a></div>
-          </div>
-        </div>
-      <a href="#" role="button">Ver mais</a>
-    </section>
-
-    <section>
-      <div>
-        <div>
-          <img src="assets/images/Call to Action Ecommerce 2.png" alt="">
-          <div>
-            <h2>Coleção feminina</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni blanditiis id accusantium! Quibusdam quidem eum expedita dolores impedit! Tenetur distinctio iure beatae nulla. Ad est architecto esse eligendi aut?</p>
-            <a href="#" role="button">Compre Agora</a>
-          </div>
-        </div>
-        <div>
-          <img src="assets/images/Call to Action Ecommerce 2.png" alt="">
-          <div>
-            <h2>Coleção feminina</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa magni blanditiis id accusantium! Quibusdam quidem eum expedita dolores impedit! Tenetur distinctio iure beatae nulla. Ad est architecto esse eligendi aut?</p>
-            <a href="#" role="button">Compre Agora</a>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
+            <div><a href=""><img src="./assets/images/product-1.png" alt="produto"></a></div>
           </div>
         </div>
       </div>
+        <!-- 
+          Role adicionada para indicar para o navegador que o link 'a' é um botão 
+        -->
+        <a href="#" role="button">Ver mais</a>
     </section>
 
-    <section>
+    <section class="mais-vendidos">
       <header>
         <h2>Mais Vendidos</h2>
       </header>
-      <div>
-        <div>
+      <div class="mais-vendidos-items">
+        <div class="mais-vendidos-items-boxes">
           <div>
             <img src="assets/images/product-2.png" alt="">
           </div>
@@ -133,7 +118,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="mais-vendidos-items-boxes">
           <div>
             <img src="assets/images/product-2.png" alt="">
           </div>
@@ -148,7 +133,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="mais-vendidos-items-boxes">
           <div>
             <img src="assets/images/product-2.png" alt="">
           </div>
@@ -163,7 +148,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="mais-vendidos-items-boxes">
           <div>
             <img src="assets/images/product-2.png" alt="">
           </div>
