@@ -4,7 +4,18 @@
 
      body {
           background-color: white;
+
      }
+
+     a[href][role="button"],
+     button,
+     input[type="submit"] {
+          background-color: #76685F;
+          padding: 1rem 2rem;
+          /* atalho para definir padding, primeiro cima e baixo, segundo esquerda e direita*/
+          color: #F5F5F5;
+          border-style: none;
+}
 
 /* Header Changes
      ========================================================================== */  
@@ -22,7 +33,7 @@
      }
 
      a[href] {
-          color: gray;
+          color: white;
      }
 
      .cabecalho .logo{
@@ -67,7 +78,7 @@
      }
 
      .cta-texto p {
-          margin-bottom: 50px;
+          margin-bottom: 20px;
           padding-right: 2rem;
      }
 
@@ -86,9 +97,12 @@
      .cta-novidades img {
           margin-bottom: 50px;
           padding-right: 2rem;
-          width: 15vmax;
+          width: 12vmax;
      }
      
+     .cta-imagem img {
+          width: 25vmax;
+     }
      /* ============ CTA End ============ */ 
 
      /* ============ Categorias Start ============ */
@@ -107,28 +121,48 @@
           justify-content: space-evenly;
         }
 
+     #menu-categorias {
+          background-color: #76685F;
+     }
 
+     /* ============ Categorias End ============ */
+
+     /* ============ Mais Vendidos Start ============ */
      .mais-vendidos {
           display: flex;
           flex-direction: column;
+          align-items: center;
      }
 
      .mais-vendidos-items {
           display: flex;
           flex-direction: row;
           justify-content: center;
-          padding: 2rem;
+          padding: 0.5rem;
+          flex-wrap: wrap;
      }
 
      .mais-vendidos-items-boxes {
           display: flex;
           flex-direction: column;
-          padding: 1rem;
+          padding: 0.5rem;
      }
 
+     .mais-vendidos-tagprice {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+     }
 
-
+     /* ============ Mais Vendidos End ============ */
      
+     /* ============ Marcas Start ============ */
+
+     .marcas a img{
+          padding: 50px;
+     }
+
+     /* ============ Marcas End ============ */
 
 /* Footer Changes
      ========================================================================== */ 
