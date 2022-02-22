@@ -32,6 +32,10 @@
           box-shadow: 0 8px 17px 2px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%), 0 5px 5px -3px rgb(0 0 0 / 20%);
      }
 
+     .cabecalho a[href]{
+          color: black;
+     }
+
      a[href] {
           color: white;
      }
@@ -121,9 +125,22 @@
           justify-content: space-evenly;
         }
 
+
      #menu-categorias {
+          display: flex;
+          margin-left: 12.30%;
+          margin-bottom: 1.5rem;
+          width: 75.5%;
           background-color: #76685F;
+          justify-content: space-around;
      }
+
+     #menu-categorias li {
+          display: flex;
+          padding: 0 3.5rem;
+          flex-wrap: wrap;
+     }
+
 
      /* ============ Categorias End ============ */
 
@@ -158,8 +175,9 @@
      
      /* ============ Marcas Start ============ */
 
-     .marcas a img{
-          padding: 50px;
+     .marcas {
+          display: flex;
+          justify-content: center;
      }
 
      /* ============ Marcas End ============ */
