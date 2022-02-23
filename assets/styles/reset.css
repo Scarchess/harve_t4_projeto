@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body {
+     background-color: white;
+}
+
+main {
+     width: 90vw;
+     margin: 0 5vw;
+}
+
+a[href][role="button"],
+button,
+input[type="submit"] {
+     background-color: #76685F;
+     padding: 1rem 2rem;
+     /* atalho para definir padding, primeiro cima e baixo, segundo esquerda e direita*/
+     color: #F5F5F5;
+     border-style: none;
+}
+
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
