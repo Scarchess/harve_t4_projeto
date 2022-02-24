@@ -1,5 +1,3 @@
-/* Global Changes
-     ========================================================================== */
 
 /* Main Changes
      ========================================================================== */ 
@@ -65,7 +63,7 @@
         }
      
         
-     .categorias--produto-lista>div {
+     .categorias--produto-lista {
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
@@ -79,6 +77,8 @@
      .menu-categorias {
           display: flex;
           justify-content: center;
+          width: 70vw;
+          margin: 0 10vw;
      }
 
      .menu-categorias ul{
@@ -116,7 +116,7 @@
      }
 
      .mais-vendidos-items-boxes--imagens {
-          height: 250px;
+          height: 300px;
      }
 
      .mais-vendidos-items-boxes--imagens img {
@@ -135,11 +135,16 @@
      /* ============ Marcas Start ============ */
 
      .marcas {
+          padding: 0 2rem 0 2rem;
           display: flex;
-          justify-content: space-evenly;
+          justify-content: space-between;
+          background-color: blue;
+          height: 100px
      }
 
+     .marcas img {
+          width: auto;
+          height: 100%;
+     }
+  
      /* ============ Marcas End ============ */
-
-/* Footer Changes
-     ========================================================================== */ 
