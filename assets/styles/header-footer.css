@@ -73,8 +73,8 @@
      .footer-bottom {
           display:flex;
           flex-direction: row;
-          column-gap: 25rem;
-          margin: 3rem;
+          column-gap: 15rem;
+          margin: 1rem;
      }
 
      .footer-copy {
@@ -86,6 +86,17 @@
      }
 
      .footer-copy--img img{
+          width: auto;
+          height: 100%;
+     }
+
+     .footer-icons {
+          display: flex;
+          flex-direction: row;
+          height: 50px;
+     }
+
+     .footer-icons img{
           width: auto;
           height: 100%;
      }

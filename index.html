@@ -46,11 +46,11 @@
       </div>
     </Section>
 
-    <section>
+    <section class="categorias">
       <header>
         <h2>Categorias</h2>
       </header>
-      <div class="categorias">
+      <div>
         <nav class="menu-categorias">
           <!-- ul>(li>a)*7 -->
           <ul>
@@ -86,7 +86,9 @@
         <!-- 
           Role adicionada para indicar para o navegador que o link 'a' é um botão 
         -->
-        <a href="#" role="button">Ver mais</a>
+        <div class="vermais">
+          <a href="#" role="button">Ver mais</a>
+        </div>
     </section>
 
     <section class="mais-vendidos">
@@ -166,60 +168,70 @@
           <a href="#"><img src="assets/images/Adidas.svg" alt=""></a>
     </section>
 
-    <section>
+    <section class="avaliacoes">
       <header>
         <h2>Avaliações</h2>
       </header>
-        <div>
-          <div>
+        <div class="avaliacoes-card">
+          <div class="avaliacoes-card-item">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem vero error aspernatur? Ipsa assumenda quisquam perferendis amet iure blanditiis ipsum est modi, quos pariatur facere dolorem eius, placeat repellat.</p>
-            <div>
-              <img src="assets/images/APPLE PAY.svg" alt="">
-            </div>
-            <div>
-              <span>José Luiz</span>
-              <span>Vendedor</span>
+            <div class="avaliacoes-card-item--bottom">
+              <div>
+                <img src="assets/images/APPLE PAY.svg" alt="">
+              </div>
+              <div>
+                <span>José Luiz</span>
+                <span>Vendedor</span>
+              </div>
             </div>
           </div>
-          <div>
+          <div class="avaliacoes-card-item">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem vero error aspernatur? Ipsa assumenda quisquam perferendis amet iure blanditiis ipsum est modi, quos pariatur facere dolorem eius, placeat repellat.</p>
-            <div>
-              <img src="assets/images/APPLE PAY.svg" alt="">
-            </div>
-            <div>
-              <span>José Luiz</span>
-              <span>Vendedor</span>
+            <div class="avaliacoes-card-item--bottom">
+              <div>
+                <img src="assets/images/APPLE PAY.svg" alt="">
+              </div>
+              <div>
+                <span>José Luiz</span>
+                <span>Vendedor</span>
+              </div>
             </div>
           </div>
-          <div>
+          <div class="avaliacoes-card-item">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex rem vero error aspernatur? Ipsa assumenda quisquam perferendis amet iure blanditiis ipsum est modi, quos pariatur facere dolorem eius, placeat repellat.</p>
-            <div>
-              <img src="assets/images/APPLE PAY.svg" alt="">
-            </div>
-            <div>
-              <span>José Luiz</span>
-              <span>Vendedor</span>
+            <div class="avaliacoes-card-item--bottom">
+              <div>
+                <img src="assets/images/APPLE PAY.svg" alt="">
+              </div>
+              <div>
+                <span>José Luiz</span>
+                <span>Vendedor</span>
+              </div>
             </div>
           </div>
         </div>
-        <div>
+        <div class="avaliacoes-fazer">
           <h3>Faça sua Avaliação</h3>
-          <form>
-            <fieldset>
+          <form class="avaliacoes-fazer-form">
+            <div class="avaliacoes-fazer-form-left">
+              <fieldset>
               <label for="name"></label>
               <input type="text" name="name" id="name" placeholder="nome">
-            </fieldset>
-            <fieldset>
+              </fieldset>
+              <fieldset>
               <label for="avaliacao-email" hidden>E-mail</label>
               <input type="email" name="avaliacao-email" id="avaliacao-email" placeholder="Digite seu E-mail">
-            </fieldset>
-              <label for="comentario" hidden>Digite seu Comentário</label>
-              <textarea placeholder="Digite Seu Comentário" type="text" name="comentario" id="comentario" cols="30" rows="10"></textarea>
-            <fieldset>
-              <label for="avaliacao">Avaliação</label>
+              </fieldset>
+              <fieldset>
+              <label for="avaliacao" hidden>Avaliação</label>
               <input type="number" name="avaliacao" id="avaliacao" max="5" min="1" value="5">
-            </fieldset>
-            <button type="submit">Enviar</button>
+              </fieldset>
+              <button type="submit">Enviar</button>
+            </div>
+            <div class="avaliacoes-fazer-form-right">
+              <label for="comentario" hidden>Digite seu Comentário</label>
+              <textarea placeholder="Digite Seu Comentário" type="text" name="comentario" id="comentario" cols="50" rows="15" style="resize: none"></textarea>
+            </div>           
           </form>
         </div>
     </section>

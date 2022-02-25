@@ -19,7 +19,6 @@
           flex-direction: column;
           justify-content: end;
           align-items: start;
-          /* padding: 1rem; */
           padding-bottom: 5rem;
           padding-left: 2rem;
           padding-right: 2rem;
@@ -56,6 +55,29 @@
 
      /* ============ Categorias Start ============ */
 
+     .categorias {
+          background-color: white;
+     }
+
+     .menu-categorias {
+          width: 75vw;
+          min-width: 500px;
+          margin: 0 5vw;
+     }
+
+     .menu-categorias ul{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          background-color: brown;
+          flex-wrap: wrap;
+
+     }
+     .menu-categorias li {
+          display: flex;
+          flex: 1;
+     } 
+     
      .categorias--produto-lista {
           flex-direction: column;
           display: flex;
@@ -69,28 +91,14 @@
           flex-wrap: wrap;
           justify-content: space-evenly;
         }
-     
-     .categorias {
 
-     }
-
-     .menu-categorias {
+     .vermais{
           display: flex;
+          flex-direction: row;
           justify-content: center;
-          width: 70vw;
-          margin: 0 10vw;
+          margin-top: 10px;
      }
-
-     .menu-categorias ul{
-          width: 100%;
-          background-color: brown;
-          flex-wrap: wrap;
-
-     }
-     .menu-categorias li {
-          display: flex;
-          flex: 1;
-     }
+     
 
 
      /* ============ Categorias End ============ */
@@ -100,7 +108,16 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          padding-top: 30px;
+          background-color: white;
      }
+
+     /*.mais-vendidos header{
+          display: flex;
+          flex-direction: row;     -- Caso queira centralizar o h2--
+          align-self: flex-start;
+          margin-left: 2rem;
+     }*/
 
      .mais-vendidos-items {
           display: flex;
@@ -139,7 +156,8 @@
           display: flex;
           justify-content: space-between;
           background-color: blue;
-          height: 100px
+          height: 100px;
+          padding-top: 20px;
      }
 
      .marcas img {
@@ -148,3 +166,88 @@
      }
   
      /* ============ Marcas End ============ */
+
+     /* ============ Avaliações Start ============ */
+
+     .avaliacoes {
+          display: flex;
+          flex-direction: column;
+          padding-bottom: 50px;
+          background-color: white;
+     }
+
+     .avaliacoes-card {
+          display: flex;
+          flex-direction: row;
+          gap: 30px;
+          text-align: justify;
+          margin-bottom: 20px;
+     }
+
+     .avaliacoes-card-item {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .avaliacoes-card-item--bottom {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+     }
+
+     .avaliacoes-fazer {
+          background-color: lightgoldenrodyellow;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+
+     .avaliacoes-fazer-form{
+          display: flex;
+          flex-direction: row;
+          gap: 10rem;
+          align-items: flex-start;
+     }
+
+     .avaliacoes-fazer form fieldset{
+          padding: 1rem;
+          border: none;
+          width: 100%;
+          margin: 0;
+     }
+
+     .avaliacoes-fazer input[type=email],
+     input[type=text], input[type=number] {
+          background-color: lightgray;
+          width: 100%;
+          padding: 1rem 2rem 1rem 0.5rem;
+          box-sizing: border-box;
+          border: none;
+          margin-right: 4rem;
+          text-align: left;
+     }
+
+     .avaliacoes-fazer-form-left {
+          padding: 1rem;
+     }
+
+     .avaliacoes-fazer-form-left button{
+          margin-left: 1rem;
+     }
+
+     .avaliacoes-fazer-form-right {
+          padding: 2rem 1rem 1rem 1rem;
+     }
+
+     /* ============ Avaliações End ============ */
+
+
+
+
+
+
+
+
+
+
